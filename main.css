@@ -1,0 +1,32 @@
+body {
+    background-color: #f8f6f0;
+}
+
+.flexcontainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    /* position: relative; */
+} 
+
+svg *{
+    fill-opacity: 0;
+}
+
+a {
+    background-color: burlywood;
+}
+
+@media (orientation:portrait) {
+    .mainPct {
+        width: 98%;
+    }
+  }
+
+@media (orientation:landscape) {
+    .mainPct {
+        height: 98%;
+    }
+  }
